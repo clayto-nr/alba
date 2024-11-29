@@ -1,0 +1,11 @@
+[
+    {
+        "titulo": "cesimar",
+        "autor": {
+            "nome": "cesimar",
+            "nacionalidade": "natal",
+            "dataNascimento": "09/09/1901"
+        },
+        "anoPublicacao": "2006"
+    }
+]
