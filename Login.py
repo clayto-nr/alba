@@ -21,7 +21,7 @@ campo_senha = tk.Entry(janela, show="*")
 campo_senha.pack()
 campo_senha.insert(0, "SENGA")
 
-botao_entrar = tk.Button(janela, text="Entrar", command=verificar_login)
+botao_entrar = tk.Button(janela, text="ENTRAR", command=verificar_login)
 botao_entrar.pack()
 
 janela.mainloop()

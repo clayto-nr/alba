@@ -58,16 +58,16 @@ campo2.pack()
 campo_resultado = tk.Entry(janela, state='disabled')
 campo_resultado.pack()
 
-botao_somar = tk.Button(janela, text="Soma", command=somar)
+botao_somar = tk.Button(janela, text="SOMA", command=somar)
 botao_somar.pack()
 
-botao_subtrair = tk.Button(janela, text="Subtração", command=subtrair)
+botao_subtrair = tk.Button(janela, text="SUBTRAÇÃO", command=subtrair)
 botao_subtrair.pack()
 
-botao_multiplicar = tk.Button(janela, text="Multiplicação", command=multiplicar)
+botao_multiplicar = tk.Button(janela, text="MULTIPLICAÇÃO", command=multiplicar)
 botao_multiplicar.pack()
 
-botao_dividir = tk.Button(janela, text="Divisão", command=dividir)
+botao_dividir = tk.Button(janela, text="DIVISÃO", command=dividir)
 botao_dividir.pack()
 
 janela.mainloop()

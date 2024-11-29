@@ -11,7 +11,7 @@ def somar():
         campo_resultado.insert(0, str(resultado)) 
         campo_resultado.config(state='disabled')  
     except ValueError:
-        messagebox.showerror("Erro", "Por favor, insira números válidos!")
+        messagebox.showerror("ERROR", "Por favor, insira números válidos!")
 
 janela = tk.Tk()
 janela.title("Somador")

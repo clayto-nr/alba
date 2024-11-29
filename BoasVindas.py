@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 
 janela = Tk()
-janela.title("Boas vindas")
+janela.title("BOAS VINDAS")
 janela.geometry("300x200+100+100")
 
 rotulo = Label(janela, text="Qual é o seu nome?")
