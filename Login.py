@@ -15,11 +15,11 @@ janela.title("Tela de Login")
 
 campo_usuario = tk.Entry(janela)
 campo_usuario.pack()
-campo_usuario.insert(0, "Usuário")
+campo_usuario.insert(0, "USER")
 
 campo_senha = tk.Entry(janela, show="*")
 campo_senha.pack()
-campo_senha.insert(0, "Senha")
+campo_senha.insert(0, "SENGA")
 
 botao_entrar = tk.Button(janela, text="Entrar", command=verificar_login)
 botao_entrar.pack()
